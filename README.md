@@ -23,4 +23,4 @@ To get started with NutritionSnap, follow these steps:
 4. Start the development server and begin exploring the app's features.
 
 ## Workflow
-This website is autodeployed using Github Actions Workflow under .github/workflows folder. Read github-actions-workflow-description.pdf for more details.
+This website is autodeployed using Github Actions Workflow under .github/workflows folder. The YAML file checks out the repo, initializes Hugo, compiles static files with optimization features, and publishes to the "gh-pages" branch. The workflow is set to trigger on pushes to 'main'. Read github-actions-workflow-description.pdf for more details.
